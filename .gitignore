@@ -1,0 +1,62 @@
+# Node.js dependencies
+/patient/node_modules
+/patient/.pnp
+/patient/.pnp.js
+
+# Node.js build output
+/patient/build
+/patient/coverage
+
+# Environment files
+/patient/.env
+/patient/.env.local
+/patient/.env.development.local
+/patient/.env.test.local
+/patient/.env.production.local
+
+# Logs
+/patient/npm-debug.log*
+/patient/yarn-debug.log*
+/patient/yarn-error.log*
+/patient/.meteor
+
+# Python dependencies
+/prescription/__pycache__/
+/prescription/.mypy_cache/
+/prescription/.pytest_cache/
+/prescription/.tox/
+.pip/
+env/
+venv/
+*.egg-info/
+*.egg
+*.dist-info/
+
+# Environment files
+/prescription/.env
+/prescription/.env.*
+/prescription/.venv
+
+# Python bytecode
+/prescription/*.pyc
+/prescription/*.pyo
+/prescription/*.pyd
+
+# Logs
+/prescription/*.log
+
+# IDE/editor specific
+*.swp
+*.swo
+*.swn
+*.DS_Store
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.db
+*.sqlite3
